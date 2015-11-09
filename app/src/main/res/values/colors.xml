@@ -5,5 +5,5 @@
     <color name="colorAccent">#179A99</color>
     <color name="colorLoginBackground">#304158</color>
     <color name="colorTextLightMain">#CCCCCC</color>
-    <color name="colorTextLightDull">#AAAAAA</color>
+    <color name="colorTextLightDull">#888888</color>
 </resources>

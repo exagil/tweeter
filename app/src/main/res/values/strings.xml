@@ -13,4 +13,5 @@
     <string name="rt_character">®</string>
     <string name="reply_character">«</string>
     <string name="fav_character">★</string>
+    <string name="title_activity_tweet">Tweet</string>
 </resources>

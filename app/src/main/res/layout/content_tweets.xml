@@ -17,7 +17,8 @@
         android:id="@android:id/list"
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_weight="9">
+        android:layout_weight="9"
+        android:background="@android:color/white">
     </ListView>
 
     <LinearLayout
@@ -27,7 +28,7 @@
         android:orientation="horizontal"
         android:layout_weight="1"
         android:weightSum="3"
-        android:background="#FEFEFE">
+        android:background="#EEEEEE">
 
         <TextView
             android:layout_width="0dp"

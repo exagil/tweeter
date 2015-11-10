@@ -1,11 +1,11 @@
 package twitter.sumit.com.twitterapp;
 
 import android.app.ListActivity;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
-import android.widget.TextView;
 
 public class TweetsActivity extends ListActivity {
     private String[] stringArray ;
@@ -20,8 +20,8 @@ public class TweetsActivity extends ListActivity {
     }
 
     protected void onListItemClick(ListView listView, View v, int position, long id) {
-        TextView textView = (TextView) v.findViewById(R.id.tweet_owner);
-        textView.setText("Batman");
+        Intent intent = new Intent(TweetsActivity.this, TweetActivity.class);
+        startActivity(intent);
     }
 
     private void populateTweets() {

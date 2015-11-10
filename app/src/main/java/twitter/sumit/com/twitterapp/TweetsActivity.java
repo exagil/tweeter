@@ -1,17 +1,13 @@
 package twitter.sumit.com.twitterapp;
 
+import android.app.ListActivity;
 import android.os.Bundle;
-import android.support.design.widget.FloatingActionButton;
-import android.support.design.widget.Snackbar;
-import android.support.v7.app.AppCompatActivity;
-import android.support.v7.widget.Toolbar;
-import android.view.Menu;
 import android.view.View;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
+import android.widget.TextView;
 
-public class TweetsActivity extends AppCompatActivity {
-    private ListView tweetsView;
+public class TweetsActivity extends ListActivity {
     private String[] stringArray ;
     private ArrayAdapter tweetsAdapter;
 
@@ -19,10 +15,13 @@ public class TweetsActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_tweets);
-        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
-        setSupportActionBar(toolbar);
 
         populateTweets();
+    }
+
+    protected void onListItemClick(ListView listView, View v, int position, long id) {
+        TextView textView = (TextView) v.findViewById(R.id.tweet_owner);
+        textView.setText("Batman");
     }
 
     private void populateTweets() {
@@ -32,8 +31,7 @@ public class TweetsActivity extends AppCompatActivity {
         }
 
         tweetsAdapter = new TweetAdapter(this, new String[20]);
-        tweetsView = (ListView) findViewById(R.id.tweets);
-        tweetsView.setAdapter(tweetsAdapter);
+        setListAdapter(tweetsAdapter);
     }
 
 }

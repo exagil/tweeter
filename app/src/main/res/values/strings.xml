@@ -10,4 +10,5 @@
     <string name="tweet_text">Tweet</string>
     <string name="tweet_camera">Camera</string>
     <string name="tweet_gallery">Gallery</string>
+    <string name="rt_character">~</string>
 </resources>

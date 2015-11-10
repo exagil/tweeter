@@ -31,7 +31,7 @@ public class TweetsActivity extends AppCompatActivity {
             stringArray[i] = "String " + i;
         }
 
-        tweetsAdapter = new ArrayAdapter(this, android.R.layout.simple_list_item_1, stringArray);
+        tweetsAdapter = new TweetAdapter(this, new String[20]);
         tweetsView = (ListView) findViewById(R.id.tweets);
         tweetsView.setAdapter(tweetsAdapter);
     }

@@ -56,7 +56,7 @@
                     android:layout_height="wrap_content"
                     android:paddingLeft="10dp"
                     android:paddingRight="10dp"
-                    android:text='@briantashman'
+                    android:text="briantashman"
                     android:textColor="@color/colorTextLightDull"
                     android:textSize="13sp"/>
                 <TextView

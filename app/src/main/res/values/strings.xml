@@ -5,4 +5,9 @@
     <string name="enter_pwd">Password</string>
     <string name="txt_login">Login</string>
     <string name="forgot_pwd">Forgot Password?</string>
+    <string name="title_activity_tweets">Feed</string>
+    <string name="no_tweet_found">No Tweet Found</string>
+    <string name="tweet_text">Tweet</string>
+    <string name="tweet_camera">Camera</string>
+    <string name="tweet_gallery">Gallery</string>
 </resources>

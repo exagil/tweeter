@@ -38,7 +38,6 @@
         android:id="@+id/tweet_block"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:paddingBottom="10dp"
         android:orientation="horizontal">
 
         <TextView
@@ -75,6 +74,7 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:paddingTop="10dp"
         android:text="Speaker explains that Elsa is from the Devil and 'Let It Go' is Satan's anthem. Seriously"
         android:textSize="18sp"/>
 

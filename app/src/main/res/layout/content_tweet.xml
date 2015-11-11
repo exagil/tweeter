@@ -102,6 +102,7 @@
         android:weightSum="3">
 
         <TextView
+            android:id="@+id/tweet_reply_btn"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -112,6 +113,7 @@
             android:gravity="center"/>
 
         <TextView
+            android:id="@+id/tweet_rt_btn"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -122,6 +124,7 @@
             android:gravity="center"/>
 
         <TextView
+            android:id="@+id/tweet_fav_btn"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
